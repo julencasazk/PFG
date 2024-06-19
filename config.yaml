@@ -1,0 +1,9 @@
+path: . # dataset root dir
+train: train_yolo # train images (relative to 'path')
+val: val_yolo # val images (relative to 'path')
+
+# Classes
+names:
+  0: background
+  1: barcode
+
